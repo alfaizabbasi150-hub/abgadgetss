@@ -1,0 +1,33 @@
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Personal editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Secrets and local settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Logs, temporary files and test output
+*.log
+*.tmp
+coverage/
+test-results/
+playwright-report/
+
+# Optional tools (not required by this static website)
+node_modules/
+.cache/
+
+# Local agent settings
+.codex/
+.agents/
